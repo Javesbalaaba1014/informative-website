@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.poppoins{
+    font-family: poppins , sans-serif;
+}
+.hero{
+    height: 100vh;
+    width: auto;
+    background-image: url("img/hero-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.black-font {
+    color: black !important;
+}
+
+.learn-more{
+    background-color: aliceblue !important;
+    text-decoration: none;
+    
+}
+.rating {
+    font-size: 40px;
+  }
+  
+  .star {
+    color: gray !important;
+    cursor: pointer;
+    transition: color 0.5s;
+  }
+  
+.star:hover, .star:hover ~ .star {
+    color: gold !important;
+}
+  
+  .star[data-value="1"]:hover ~ .star,
+  .star[data-value="1"]:hover {
+    color: gray;
+  }
+  .star[data-value="2"]:hover ~ .star,
+  .star[data-value="2"]:hover {
+    color: gray;
+  }
+  .star[data-value="3"]:hover ~ .star,
+  .star[data-value="3"]:hover {
+    color: gray;
+  }
+  .star[data-value="4"]:hover ~ .star,
+  .star[data-value="4"]:hover {
+    color: gray;
+  }
+  .star[data-value="5"]:hover {
+    color: gray;
+  }
